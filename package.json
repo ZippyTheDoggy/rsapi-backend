@@ -1,17 +1,16 @@
 {
   "name": "srapi-backend",
   "author": "ZippyTheDoggy",
-
   "scripts": {
     "build": "tsc",
     "watch_tsc": "tsc -w",
     "watch_dist": "nodemon dist/index.js",
     "run": "node dist/index.js"
   },
-
   "dependencies": {
+    "@types/express": "^5.0.3",
     "express": "^5.1.0",
-    "@types/express": "^5.0.3"
+    "argon2": "^0.43.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10",
